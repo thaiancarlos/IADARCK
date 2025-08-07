@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estilos do cabeçalho (header) */
+header {
+    background-color: #020202;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+/* Estilos da navegação (nav) */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos do logo */
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e01010;
+    text-decoration: none;
+}
+
+/* Estilos dos links da navegação */
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #f80a0a;
+    font-weight: 400;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+h1{
+    text-align: center;
+   font-size: 45px;
+   color: #e01010;
+}
+p{
+    color: #f80a0a;
+    font-size: 25px;
+    text-align: center;
+}
+.container-imagens {
+    /* Define o container como um Flexbox */
+    display: flex;
+
+    /* Centraliza os itens horizontalmente */
+    justify-content: center;
+
+    /* Adiciona um espaço entre as imagens, se necessário */
+    gap: 20px;
+}
+
+/* Opcional: Estilos para as imagens */
+.container-imagens img {
+    /* Garante que as imagens não passem da largura do container */
+    max-width: 100%;
+
+    /* Altura automática para manter a proporção */
+    height: auto;
+}
+.kk{
+    text-align: center;
+}
+/* Centralizando o botão dentro de sua própria div */
+body{
+    background-color: #1f1e1e;
+}
