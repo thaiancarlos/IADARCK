@@ -90,5 +90,8 @@ p{
 }
 /* Centralizando o botão dentro de sua própria div */
 body{
-    background-color: #131313;
+    background-image: url(h1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover !important;
 }
