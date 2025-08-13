@@ -4,7 +4,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fcfcfc;
 }
 
 /* Estilos do cabeçalho (header) */
@@ -90,5 +90,5 @@ p{
 }
 /* Centralizando o botão dentro de sua própria div */
 body{
-    background-color: #1f1e1e;
+    background-color: #131313;
 }
