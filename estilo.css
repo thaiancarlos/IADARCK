@@ -1,0 +1,34 @@
+h1{
+    color: rgb(240, 3, 3);
+    text-align: center;
+    font-size:50px ;
+}
+
+body{
+    background-color: rgb(23, 22, 22);
+}
+.oi{
+    text-align: center;
+}.container-imagens {
+    /* Define o container como um Flexbox */
+    display: flex;
+
+    /* Centraliza os itens horizontalmente */
+    justify-content: center;
+
+    /* Adiciona um espaço entre as imagens, se necessário */
+    gap: 20px;
+}
+
+/* Opcional: Estilos para as imagens */
+.container-imagens img {
+    /* Garante que as imagens não passem da largura do container */
+    max-width: 100%;
+
+    /* Altura automática para manter a proporção */
+    height: auto;
+}
+.kk{
+    text-align: center;
+}
+/* Centralizando o botão dentro de sua própria div */
